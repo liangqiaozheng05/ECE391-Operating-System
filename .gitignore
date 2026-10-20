@@ -1,0 +1,30 @@
+# Local credentials and machine configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+/.ssh/
+/.aws/
+.DS_Store
+Thumbs.db
+
+# Generated build output and filesystem images
+*.o
+*.elf
+*.raw
+*.img
+*.log
+*.tmp
+/usr/bin/
+/sys/blob.raw
+
+# Precompiled course and third-party assets are not distributed
+/usr/games/
+/util/mkfs_ktfs
+
+# Personal write-ups and migration artifacts
+*.docx
+/migration-review/
